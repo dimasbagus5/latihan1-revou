@@ -1,0 +1,40 @@
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffeead;
+    border: 2px solid;
+    background-color: green;
+}
+
+.container > .logo{
+    margin-right: auto;
+}
+
+.content{
+    font-size: 14px;
+    margin-top: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.content > div {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.table_person > th, td {
+    border: 1px solid black;
+}
+
+.footer > p {
+    text-align: end;
+}

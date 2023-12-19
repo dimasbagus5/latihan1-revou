@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course RevoU Day 1</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+        a{
+            
+        }
+    </style>
 </head>
 <body>
-    <h2>Hello World!</h2>
+    <div class="bar">
+        <span><img src="" alt="gambar.jpg"></span>
+        <div class="bar-menu" style="float: right;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://google.com" target="_blank">Google</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <h1>Col Span Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RevoU</td>
+                <td colspan="2">123</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h1>Row Span Table</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Company</th>
+            <td>City</td>
+            <td>Country</td>
+        </tr>
+        <tr>
+            <td>RevoU</td>
+            <td>123</td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <h1>Latihan FOrm</h1>
+        <form action="" method="post">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="age">Age: </label>
+            <input type="number" name="number" id="number" min="1" max="100">
+            <br>
+            <p><b>What is your favourite color?</b></p>
+            <br>
+            <select name="fav_colors" id="fav_color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+
+            <br><br>
+            <input type="radio" name="fav_language" id="fav_language">
+            <label for="html">HTML</label>
+            <br>
+            <input type="radio" name="fav_language" id="fav_language">
+            <label for="php">PHP</label>
+            <br>
+            <input type="radio" name="fav_language" id="fav_language">
+            <label for="javascript">JavaScript</label>
+            <br>
+            <input type="submit" name="submit">
+        </form>
+    </div>
 </body>
 </html>

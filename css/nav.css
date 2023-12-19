@@ -1,0 +1,23 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffeead;
+    border: 2px solid;
+    background-color: green;
+}
+
+.container > .logo{
+    margin-right: auto;
+}
